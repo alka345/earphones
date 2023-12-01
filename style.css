@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.beatsLogo{
+    margin-top: -45%;
+    margin-left: -20%;
+}
+
+ nav {
+  
+    display: flex;
+    width: 120%;
+    align-items: center; 
+} 
+
+ nav ul{
+ color: white;
+display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-top: -45%;
+    /* justify-content: end; */
+    /* margin-right: 50px; */
+    padding-left: 100px;
+    
+ } 
+ .onEar{
+    padding-left: 50px;
+ }
+button{
+    padding: 15px 40px;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.earphones{
+    height: 500px;
+    width: 300px;
+    padding-left: 100px;
+}
+
+.article-onEar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35%;
+    margin-top: -25%;
+}
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.appleLogo{
+    /* display: flex; */
+    height: 50px;
+    width: 50px;
+}
+.specsLogo{
+    display: inline;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+margin-top: 10%;
+margin-left: 30%;
+}
+
+ .top-section{
+    display: flex;
+} 
+.externalDevice{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.caseLogo{
+    display: inline;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+margin-top: 10%;
+margin-left: 30%;
+}
+
+.case{
+    display: flex;
+}
+.moreInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.group{
+    margin-top: 30px;
+    display: flex;
+
+}
+.group p{
+    margin-left: 20px;
+}
+
+.buyNowSection{
+    display: flex;
+    width: 130%;
+    background-color: rgb(138, 135, 135);
+    margin-left: -18%;
+    padding: 50px;
+}
+.buyNowSection h2{
+    margin-top: -18px;
+}
+.buyNowSection p{
+    margin-top: 18px;
+}
+.buyNowSection button{
+    margin-top: 18px;
+}
+.shoppingBag{
+    padding-right: 10px;
+}
+.buyNow{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    margin-top:60px ;
+}
+.buyNowSectionImage{
+    margin-left: 20%;
+}
+.productLogo{
+   display: inline;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+margin-top: 10%;
+margin-left: 30%;
+}
+.diffEarphones{
+    display: flex;
+
+}
+
+.diffEarphones p{
+
+ height: 200px;
+  width: 200px;  
+  border: 100px rgb(196, 192, 192);
+  background-color: rgb(196, 192, 192);
+  /* display: flex; */
+  /* flex-direction: column; */
+/* align-items: start; */
+/* justify-content: end; */
+/* margin-left: 0px;
+margin-bottom: 0px; */
+} 
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+}
+.row-2{
+    display: flex;
+    flex-direction: column;
+}
+.black{
+    height: 200px;
+    width: 150px;
+}
+/* 
+ .black p{
+    display: flex;
+    flex-direction: column;} */
+
+.nightBlack{
+    height: 200px;
+    width: 150px;
+}
+.twilightGray{
+    height: 200px;
+    width: 150px;
+}
+.redBlack{
+    height: 200px;
+    width: 150px;
+}
+.blue{
+    height: 200px;
+    width: 150px;
+}
